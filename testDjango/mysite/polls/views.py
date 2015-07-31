@@ -31,6 +31,7 @@ class ResultsView(generic.DetailView):
 #     question = get_object_or_404(Question, pk=question_id)
 #     return render(request, 'polls/detail.html', {'question': question})
 #
+# Testing these changes
 #
 # def index(request):
 #     latest_question_list = Question.objects.order_by('-pub_date')[:5]
