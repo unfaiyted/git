@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^polls/', include('polls.urls', namespace="polls")),
+    url(r'^simple/', include('simple.urls', namespace="simple")),
     url(r'^admin/', include(admin.site.urls)),
 ]
